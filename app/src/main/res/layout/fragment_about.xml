@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AboutFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/Burgundy">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Attorneys at your service"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Matthew murdock"
+                android:padding="10sp"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="25dp">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/matt"
+                        android:scaleType="centerCrop"/>
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Matthew Michael Matt Murdock is a lawyer who was blinded as a young boy by a radioactive substance that fell into his eyes from a crashed vehicle. Murdock dedicated his life to fighting injustice where he could find it in New York City. as a lawyer with his law firm Nelson and Murdock."
+                    android:padding="10dp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Foggy Nelson"
+                android:padding="10sp"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="25dp">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/foggy"
+                        android:scaleType="centerCrop"/>
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="When Nelson was a young boy growing up in Hell's Kitchen, he had a rivalry with Brett Mahoney that lasted the majority of their childhoods.[1] Sometime later, Nelson heard about another boy named Matt Murdock, who had been blinded in an accident where he had tried to save an old man."
+                    android:padding="10dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nelson &amp; Murdock"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:paddingTop="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="After graduating, Matt and Foggy open up a private law practice.
+After graduating, the pair got work as interns for a large corporate company called Landman and Zack; during this time Nelson had a brief sexual relationship with his co-worker Marci Stahl. During their time at the law-firm, Nelson and Matt Murdock were left to work in a tiny storage room which had been converted into an office while they worked on law-suit cases involving innocent people who were being counter-sued by large selfish companies like the Roxxon Corporation, ruining their lives and taking all the money they had earned."
+                android:textColor="@color/black"
+                android:padding="5dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="BloodRed">#800808</color>
+    <color name="Berry">#990000</color>
+    <color name="Burgundy">#90021F</color>
+    <color name="Chilli">#C21A09</color>
+</resources>
